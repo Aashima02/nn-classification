@@ -232,17 +232,11 @@ print(le.inverse_transform(x_prediction))
 
 ## OUTPUT:
 
-### Plots:
-
-| Training Loss,Validation Loss vs Iteration Plot | Accuracy, Validation Accuracy vs Iteration |
-| --- | --- |
-| ![image](https://github.com/Aashima02/nn-classification/assets/93427086/a53dccd6-04e0-4ed4-b1a3-2ad9e24c2222)
- | ![image](https://github.com/Aashima02/nn-classification/assets/93427086/6dce944a-9a41-4a17-9d23-e776a5592ff8)
- |
-
 ### Training Loss, Validation Loss Vs Iteration Plot
+![image](https://github.com/Aashima02/nn-classification/assets/93427086/a53dccd6-04e0-4ed4-b1a3-2ad9e24c2222)
 
-Include your plot here
+### Accuracy, Validation Accuracy vs Iteration Plot:
+![image](https://github.com/Aashima02/nn-classification/assets/93427086/6dce944a-9a41-4a17-9d23-e776a5592ff8)
 
 ### Classification Report
 
