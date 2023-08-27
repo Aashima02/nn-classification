@@ -158,7 +158,7 @@ x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=1/3,random_state=
 # Build the Model
 
 ai = Sequential([Dense(77,input_shape = [8]),
-                 Dense(69,activation="relu"),
+                 Dense(67,activation="relu"),
                  Dense(58,activation="relu"),
                  Dense(37,activation="relu"),
                  Dense(4,activation="softmax")])
@@ -232,23 +232,23 @@ print(le.inverse_transform(x_prediction))
 
 ## OUTPUT:
 
-### Training Loss, Validation Loss Vs Iteration Plot
+### Training Loss, Validation Loss Vs Iteration Plot:
 ![image](https://github.com/Aashima02/nn-classification/assets/93427086/a53dccd6-04e0-4ed4-b1a3-2ad9e24c2222)
 
 ### Accuracy, Validation Accuracy vs Iteration Plot:
 ![image](https://github.com/Aashima02/nn-classification/assets/93427086/6dce944a-9a41-4a17-9d23-e776a5592ff8)
 
-### Classification Report
+### Confusion Matrix:
+![image](https://github.com/Aashima02/nn-classification/assets/93427086/610e7fed-f4df-4960-bd01-ce185343a7dc)
 
-Include Classification Report here
+### Classification Report:
 
-### Confusion Matrix
+![image](https://github.com/Aashima02/nn-classification/assets/93427086/4e286a50-9c25-45d5-99a0-727ec8d54f7b)
 
-Include confusion matrix here
+### New Sample Data Prediction:
+
+![image](https://github.com/Aashima02/nn-classification/assets/93427086/fe284f7a-eda2-4dba-8b3a-5fdb045fd255)
 
 
-### New Sample Data Prediction
-
-Include your sample input and output here
-
-## RESULT
+## RESULT:
+A neural network classification model is developed for the given dataset.
